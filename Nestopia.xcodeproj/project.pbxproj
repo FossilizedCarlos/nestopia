@@ -14,6 +14,9 @@
 		439F475F17FCFB89002EAB82 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 439F475917FCFB89002EAB82 /* README.md */; };
 		439F476017FCFB89002EAB82 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 439F475A17FCFB89002EAB82 /* release_notes.md */; };
 		439F476217FCFBA2002EAB82 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 439F476117FCFBA2002EAB82 /* libz.dylib */; };
+		439F476617FCFDCA002EAB82 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 439F476317FCFDCA002EAB82 /* libz.1.1.3.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		439F476717FCFDCA002EAB82 /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 439F476417FCFDCA002EAB82 /* libz.1.2.5.dylib */; };
+		439F476817FCFDCA002EAB82 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 439F476517FCFDCA002EAB82 /* libz.1.dylib */; };
 		700950D717FC739F0038888C /* NestopiaCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 70094FB517FC739F0038888C /* NestopiaCore.mm */; };
 		700956F717FC75590038888C /* NstApiBarcodeReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7009547B17FC75570038888C /* NstApiBarcodeReader.cpp */; };
 		700956F817FC75590038888C /* NstApiCartridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7009547D17FC75570038888C /* NstApiCartridge.cpp */; };
@@ -351,6 +354,9 @@
 		439F475C17FCFB89002EAB82 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
 		439F475D17FCFB89002EAB82 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		439F476117FCFBA2002EAB82 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		439F476317FCFDCA002EAB82 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		439F476417FCFDCA002EAB82 /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		439F476517FCFDCA002EAB82 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = usr/lib/libz.1.dylib; sourceTree = SDKROOT; };
 		70094FB317FC739F0038888C /* Nestopia_Callback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Nestopia_Callback.h; path = Nestopia/Nestopia_Callback.h; sourceTree = "<group>"; };
 		70094FB417FC739F0038888C /* NestopiaCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NestopiaCore.h; path = Nestopia/NestopiaCore.h; sourceTree = "<group>"; };
 		70094FB517FC739F0038888C /* NestopiaCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NestopiaCore.mm; path = Nestopia/NestopiaCore.mm; sourceTree = "<group>"; };
@@ -1030,6 +1036,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439F476617FCFDCA002EAB82 /* libz.1.1.3.dylib in Frameworks */,
+				439F476717FCFDCA002EAB82 /* libz.1.2.5.dylib in Frameworks */,
+				439F476817FCFDCA002EAB82 /* libz.1.dylib in Frameworks */,
 				439F476217FCFBA2002EAB82 /* libz.dylib in Frameworks */,
 				7044127F0ED9CF6100E54091 /* AudioToolbox.framework in Frameworks */,
 				704412800ED9CF6100E54091 /* QuartzCore.framework in Frameworks */,
@@ -1114,6 +1123,9 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				439F476317FCFDCA002EAB82 /* libz.1.1.3.dylib */,
+				439F476417FCFDCA002EAB82 /* libz.1.2.5.dylib */,
+				439F476517FCFDCA002EAB82 /* libz.1.dylib */,
 				439F476117FCFBA2002EAB82 /* libz.dylib */,
 				7044127D0ED9CF6100E54091 /* AudioToolbox.framework */,
 				7044127E0ED9CF6100E54091 /* QuartzCore.framework */,

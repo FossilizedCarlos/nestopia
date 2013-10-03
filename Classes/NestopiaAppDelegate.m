@@ -23,6 +23,21 @@
 
 @implementation NestopiaAppDelegate
 
+-(BOOL)application:(UIApplication *)application
+didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // start of your application:didFinishLaunchingWithOptions // ...
+    [TestFlight takeOff:@"0583389d-9f4f-4976-a80b-ce28d565e686"];
+    // The rest of your application:didFinishLaunchingWithOptions method// ...
+    
+	window = [ [ UIWindow alloc ] initWithFrame: [ [ UIScreen mainScreen ] bounds ] ];
+    
+    tabBarController = [ self initializeTabBar ];
+    window.rootViewController = tabBarController;
+    
+	[ window makeKeyAndVisible ];
+}
+
+/*
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
     [TestFlight takeOff:@"0583389d-9f4f-4976-a80b-ce28d565e686"];
     
@@ -32,7 +47,7 @@
     window.rootViewController = tabBarController;
 
 	[ window makeKeyAndVisible ];
-}
+}*/
 
 - (void)applicationWillTerminate:(UIApplication *)application {
 
