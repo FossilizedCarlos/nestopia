@@ -235,7 +235,7 @@ namespace Nes
 		void Ppu::UpdatePalette()
 		{
 			for (uint i=0, c=Coloring(), e=Emphasis(); i < Palette::SIZE; ++i)
-				output.palette[i] = (rgbMap ? rgbMap[palette.ram[i] & uint(Palette::COLOR)] : palette.ram[i]) & c | e;
+				output.palette[i] = ((rgbMap ? rgbMap[palette.ram[i] & uint(Palette::COLOR)] : palette.ram[i]) & c) | e;
 		}
 
 		void Ppu::SaveState(State::Saver& state,const dword baseChunk) const
@@ -681,12 +681,12 @@ namespace Nes
 				if (!map)
 				{
 					for (uint i=0; i < Palette::SIZE; ++i)
-						output.palette[i] = palette.ram[i] & c | e;
+						output.palette[i] = (palette.ram[i] & c) | e;
 				}
 				else
 				{
 					for (uint i=0; i < Palette::SIZE; ++i)
-						output.palette[i] = map[palette.ram[i] & Palette::COLOR] & c | e;
+						output.palette[i] = (map[palette.ram[i] & Palette::COLOR] & c) | e;
 				}
 			}
 		}
@@ -824,7 +824,7 @@ namespace Nes
 			{
 				address &= 0x1F;
 
-				const uint final = (!rgbMap ? data : rgbMap[data & Palette::COLOR]) & Coloring() | Emphasis();
+				const uint final = ((!rgbMap ? data : rgbMap[data & Palette::COLOR]) & Coloring()) | Emphasis();
 
 				palette.ram[address] = data;
 				output.palette[address] = final;

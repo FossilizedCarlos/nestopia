@@ -1596,17 +1596,17 @@ namespace Nes
 
 		NES_PEEK_A(Cartridge::VsSystem,2002_RC2C05_01_04)
 		{
-			return p2002.Peek( address ) & 0xC0 | 0x1B;
+			return (p2002.Peek( address ) & 0xC0) | 0x1B;
 		}
 
 		NES_PEEK_A(Cartridge::VsSystem,2002_RC2C05_02)
 		{
-			return p2002.Peek( address ) & 0xC0 | 0x3D;
+			return (p2002.Peek( address ) & 0xC0) | 0x3D;
 		}
 
 		NES_PEEK_A(Cartridge::VsSystem,2002_RC2C05_03)
 		{
-			return p2002.Peek( address ) & 0xC0 | 0x1C;
+			return (p2002.Peek( address ) & 0xC0) | 0x1C;
 		}
 
 		NES_POKE_AD(Cartridge::VsSystem,2002)
@@ -1616,7 +1616,7 @@ namespace Nes
 
 		NES_PEEK_A(Cartridge::VsSystem,4016)
 		{
-			return dips.Reg(0) | p4016.Peek( address ) & (STATUS_4016_MASK^0xFFU);
+			return dips.Reg(0) | (p4016.Peek( address ) & (STATUS_4016_MASK^0xFFU));
 		}
 
 		NES_POKE_AD(Cartridge::VsSystem,4016)
@@ -1626,7 +1626,7 @@ namespace Nes
 
 		NES_PEEK_A(Cartridge::VsSystem,4017)
 		{
-			return dips.Reg(1) | p4017.Peek( address ) & (STATUS_4017_MASK^0xFFU);
+			return dips.Reg(1) | (p4017.Peek( address ) & (STATUS_4017_MASK^0xFFU));
 		}
 
 		NES_POKE_AD(Cartridge::VsSystem,4017)

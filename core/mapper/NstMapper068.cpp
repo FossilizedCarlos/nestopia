@@ -76,7 +76,7 @@ namespace Nes
 
 			uint End()
 			{
-				return (prgBank & 0x8 && counter < SIGNAL && ++counter == SIGNAL) ? (prgBank & 0x7 | 0x10) : 0;
+				return (prgBank & 0x8 && counter < SIGNAL && ++counter == SIGNAL) ? ((prgBank & 0x7) | 0x10) : 0;
 			}
 		};
 

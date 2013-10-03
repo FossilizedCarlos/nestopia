@@ -47,7 +47,7 @@ namespace Nes
 
 		NES_POKE_A(Mapper231,Prg)
 		{
-			prg.SwapBanks<SIZE_16K,0x0000>( address & 0x1E, address & 0x1E | (address >> 5 & 0x1) );
+			prg.SwapBanks<SIZE_16K,0x0000>( address & 0x1E, (address & 0x1E) | (address >> 5 & 0x1) );
 			ppu.SetMirroring( (address & 0x80) ? Ppu::NMT_HORIZONTAL : Ppu::NMT_VERTICAL );
 		}
 	}
