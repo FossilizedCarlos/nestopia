@@ -19,10 +19,13 @@
  */
 
 #import "NestopiaAppDelegate.h"
+#import "TestFlight.h"
 
 @implementation NestopiaAppDelegate
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
+    [TestFlight takeOff:@"0583389d-9f4f-4976-a80b-ce28d565e686"];
+    
 	window = [ [ UIWindow alloc ] initWithFrame: [ [ UIScreen mainScreen ] bounds ] ];
 
     tabBarController = [ self initializeTabBar ];

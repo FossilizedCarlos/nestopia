@@ -10,6 +10,10 @@
 		1D3623260D0F684500981E51 /* NestopiaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* NestopiaAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		28C286E10D94DF7D0034E888 /* GamePlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* GamePlayViewController.m */; };
+		439F475E17FCFB89002EAB82 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 439F475817FCFB89002EAB82 /* libTestFlight.a */; };
+		439F475F17FCFB89002EAB82 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 439F475917FCFB89002EAB82 /* README.md */; };
+		439F476017FCFB89002EAB82 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 439F475A17FCFB89002EAB82 /* release_notes.md */; };
+		439F476217FCFBA2002EAB82 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 439F476117FCFBA2002EAB82 /* libz.dylib */; };
 		700950D717FC739F0038888C /* NestopiaCore.mm in Sources */ = {isa = PBXBuildFile; fileRef = 70094FB517FC739F0038888C /* NestopiaCore.mm */; };
 		700956F717FC75590038888C /* NstApiBarcodeReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7009547B17FC75570038888C /* NstApiBarcodeReader.cpp */; };
 		700956F817FC75590038888C /* NstApiCartridge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7009547D17FC75570038888C /* NstApiCartridge.cpp */; };
@@ -335,11 +339,18 @@
 /* Begin PBXFileReference section */
 		1D3623240D0F684500981E51 /* NestopiaAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestopiaAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* NestopiaAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestopiaAppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* Nestopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nestopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* NEStopia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NEStopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A0AAE50D9B0CCF005BE974 /* Nestopia_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nestopia_Prefix.pch; sourceTree = "<group>"; };
 		28C286DF0D94DF7D0034E888 /* GamePlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePlayViewController.h; sourceTree = "<group>"; };
 		28C286E00D94DF7D0034E888 /* GamePlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePlayViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		439F475817FCFB89002EAB82 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		439F475917FCFB89002EAB82 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		439F475A17FCFB89002EAB82 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		439F475B17FCFB89002EAB82 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		439F475C17FCFB89002EAB82 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		439F475D17FCFB89002EAB82 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		439F476117FCFBA2002EAB82 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		70094FB317FC739F0038888C /* Nestopia_Callback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Nestopia_Callback.h; path = Nestopia/Nestopia_Callback.h; sourceTree = "<group>"; };
 		70094FB417FC739F0038888C /* NestopiaCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NestopiaCore.h; path = Nestopia/NestopiaCore.h; sourceTree = "<group>"; };
 		70094FB517FC739F0038888C /* NestopiaCore.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = NestopiaCore.mm; path = Nestopia/NestopiaCore.mm; sourceTree = "<group>"; };
@@ -1019,9 +1030,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439F476217FCFBA2002EAB82 /* libz.dylib in Frameworks */,
 				7044127F0ED9CF6100E54091 /* AudioToolbox.framework in Frameworks */,
 				704412800ED9CF6100E54091 /* QuartzCore.framework in Frameworks */,
 				70F696A8124C289500D39392 /* CoreGraphics.framework in Frameworks */,
+				439F475E17FCFB89002EAB82 /* libTestFlight.a in Frameworks */,
 				70F696AA124C289500D39392 /* Foundation.framework in Frameworks */,
 				70F696AC124C289500D39392 /* UIKit.framework in Frameworks */,
 			);
@@ -1035,6 +1048,7 @@
 			children = (
 				1D3623240D0F684500981E51 /* NestopiaAppDelegate.h */,
 				1D3623250D0F684500981E51 /* NestopiaAppDelegate.m */,
+				439F475717FCFB89002EAB82 /* TestFlightSDK */,
 				709D4DB417F9DD8400AB2D63 /* NESTabBarController.h */,
 				709D4DB517F9DD8400AB2D63 /* NESTabBarController.m */,
 				7035961017FBC44400632315 /* NESNavigationController.h */,
@@ -1061,7 +1075,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* Nestopia.app */,
+				1D6058910D05DD3D006BFB54 /* NEStopia.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1100,6 +1114,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				439F476117FCFBA2002EAB82 /* libz.dylib */,
 				7044127D0ED9CF6100E54091 /* AudioToolbox.framework */,
 				7044127E0ED9CF6100E54091 /* QuartzCore.framework */,
 				70F696A7124C289500D39392 /* CoreGraphics.framework */,
@@ -1107,6 +1122,19 @@
 				70F696AB124C289500D39392 /* UIKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		439F475717FCFB89002EAB82 /* TestFlightSDK */ = {
+			isa = PBXGroup;
+			children = (
+				439F475817FCFB89002EAB82 /* libTestFlight.a */,
+				439F475917FCFB89002EAB82 /* README.md */,
+				439F475A17FCFB89002EAB82 /* release_notes.md */,
+				439F475B17FCFB89002EAB82 /* TestFlight+AsyncLogging.h */,
+				439F475C17FCFB89002EAB82 /* TestFlight+ManualSessions.h */,
+				439F475D17FCFB89002EAB82 /* TestFlight.h */,
+			);
+			path = TestFlightSDK;
 			sourceTree = "<group>";
 		};
 		7009547817FC75570038888C /* core */ = {
@@ -1894,7 +1922,7 @@
 			);
 			name = Nestopia;
 			productName = Nestopia;
-			productReference = 1D6058910D05DD3D006BFB54 /* Nestopia.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* NEStopia.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1904,6 +1932,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = 64SE2VTT3X;
+					};
+				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Nestopia" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1934,6 +1967,7 @@
 				7074DA8C17F3D46D0071CD85 /* History@2x.png in Resources */,
 				7074DA8417F3C8320071CD85 /* icon.png in Resources */,
 				7074DA8A17F3D0C10071CD85 /* Settings@2x.png in Resources */,
+				439F475F17FCFB89002EAB82 /* README.md in Resources */,
 				7009581317FC75590038888C /* readme.txt in Resources */,
 				7074DA8117F380B70071CD85 /* Default-568h@2x.png in Resources */,
 				7074DA8E17F3DBB80071CD85 /* controller_pt@2x.png in Resources */,
@@ -1953,6 +1987,7 @@
 				7009581417FC75590038888C /* test.bmp in Resources */,
 				7039774810D97E890022DB57 /* Games@2x.png in Resources */,
 				7052063017FA1E2F001FFF8F /* NstDatabase.dat in Resources */,
+				439F476017FCFB89002EAB82 /* release_notes.md in Resources */,
 				7009581617FC75590038888C /* 2.frame_phase.nes in Resources */,
 				7009580017FC75590038888C /* NstVideoFilterHq3x.inl in Resources */,
 				70B3DB0217F48EC6005AA2BB /* b@2x.png in Resources */,
@@ -2269,6 +2304,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2281,10 +2317,15 @@
 				GCC_PREFIX_HEADER = Nestopia_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/PetroEkos/Documents/SkyDrive/Fossilized\\ Bits/NEStopia/Classes/TestFlightSDK",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-fast";
-				PRODUCT_NAME = Nestopia;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PRODUCT_NAME = NEStopia;
+				PROVISIONING_PROFILE = "28A285D6-CF04-4BAB-9658-3362E3A29BD2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "28A285D6-CF04-4BAB-9658-3362E3A29BD2";
 				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = YES;
 				VALID_ARCHS = "armv7 armv7s";
@@ -2296,7 +2337,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = YES;
 				COPY_PHASE_STRIP = YES;
@@ -2311,10 +2352,15 @@
 				GCC_PREFIX_HEADER = Nestopia_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/PetroEkos/Documents/SkyDrive/Fossilized\\ Bits/NEStopia/Classes/TestFlightSDK",
+				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-fast";
-				PRODUCT_NAME = Nestopia;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A5E6E1D8-9923-44E3-A2AB-FDD4013C68D1";
+				PRODUCT_NAME = NEStopia;
+				PROVISIONING_PROFILE = "28A285D6-CF04-4BAB-9658-3362E3A29BD2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "28A285D6-CF04-4BAB-9658-3362E3A29BD2";
 				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = YES;
 				VALID_ARCHS = "armv7 armv7s";
@@ -2343,7 +2389,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = YES;
 				COPY_PHASE_STRIP = YES;
@@ -2358,10 +2404,15 @@
 				GCC_PREFIX_HEADER = Nestopia_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/PetroEkos/Documents/SkyDrive/Fossilized\\ Bits/NEStopia/Classes/TestFlightSDK",
+				);
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-fast";
-				PRODUCT_NAME = Nestopia;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PRODUCT_NAME = NEStopia;
+				PROVISIONING_PROFILE = "28A285D6-CF04-4BAB-9658-3362E3A29BD2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "28A285D6-CF04-4BAB-9658-3362E3A29BD2";
 				SDKROOT = iphoneos;
 				STRIP_INSTALLED_PRODUCT = YES;
 				VALIDATE_PRODUCT = YES;
